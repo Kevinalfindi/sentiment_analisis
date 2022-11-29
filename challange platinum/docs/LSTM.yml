@@ -1,0 +1,16 @@
+tags:
+  - name :  Sentiment Analisis LSTM
+get: 
+  description: teks yang akan di proses
+parameters:   
+  - name : text
+    in : formData
+    required: true
+    type: string
+responses: 
+  '200':
+    descripstion: succesful response
+  '400':
+    description: bad request
+  '500':
+    description: internal server eror
